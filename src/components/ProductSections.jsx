@@ -69,48 +69,48 @@ export default function ProductSections({ scrollProgress, colorFinish, setColorF
       {/* =========================================================================
           STAGE 01: HERO OVERVIEW (Scroll 0% - 20%)
       ========================================================================= */}
-      <section id="overview" className="min-h-screen flex flex-col justify-between pt-36 pb-16 px-8 sm:px-16 lg:px-24 max-w-[1440px] mx-auto">
-        <div className="pointer-events-auto max-w-2xl pt-6">
-          <div className="flex items-center gap-2.5 text-[11px] font-mono-tech text-[#c29b72] mb-8 tracking-[0.2em] uppercase">
+      <section id="overview" className="min-h-screen flex flex-col justify-between pt-20 sm:pt-24 pb-28 px-8 sm:px-16 lg:px-24 max-w-[1440px] mx-auto">
+        <div className="pointer-events-auto max-w-xl">
+          <div className="flex items-center gap-2 text-[10px] sm:text-[11px] font-mono-tech text-[#c29b72] mb-3 sm:mb-4 tracking-[0.2em] uppercase">
             <span className="text-[#d4a373] text-sm">+</span>
             <span>PRODUCTION BATCH 01</span>
             <span className="text-white/20">/</span>
             <span className="text-white/40">500 SERIALIZED INSTRUMENTS</span>
           </div>
 
-          <h1 className="font-display font-black text-6xl sm:text-8xl lg:text-9xl text-[#f7f6f2] tracking-tighter leading-[0.84]">
+          <h1 className="font-display font-black text-4xl sm:text-6xl lg:text-7xl xl:text-[5.25rem] text-[#f7f6f2] tracking-tighter leading-[0.88]">
             AETHER <br />
             <span className="bg-gradient-to-r from-[#ffffff] via-[#ecd5be] to-[#a8825c] bg-clip-text text-transparent">
               APEX ONE.
             </span>
           </h1>
 
-          <p className="mt-8 text-xl sm:text-2xl text-[#b5af9f] font-editorial italic leading-relaxed max-w-xl">
+          <p className="mt-3 sm:mt-4 text-base sm:text-lg text-[#b5af9f] font-editorial italic leading-relaxed max-w-lg">
             "An acoustic instrument sculpted from aerospace titanium — calibrated for sensory depth."
           </p>
 
-          <p className="mt-4 text-sm text-[#736f66] font-sans font-normal leading-relaxed max-w-md">
+          <p className="mt-2 text-xs sm:text-sm text-[#736f66] font-sans font-normal leading-relaxed max-w-md">
             Milled from solid Grade 5 titanium billets. Featuring dual 40mm titanium-vapor diaphragms, zero-gravity cranial suspension, and lossless 24-bit/192kHz spatial audio.
           </p>
 
-          <div className="mt-10 flex flex-wrap items-center gap-4">
+          <div className="mt-5 sm:mt-6 flex flex-wrap items-center gap-3.5">
             <a
               href="#preorder"
-              className="px-8 py-3.5 rounded-full bg-[#e2b17a] text-[#0d0d10] font-display font-bold text-xs uppercase tracking-wider hover:bg-[#ebd2bb] hover:scale-105 transition-all shadow-xl shadow-[#d4a373]/20 flex items-center gap-2"
+              className="px-7 py-3 rounded-full bg-[#e2b17a] text-[#0d0d10] font-display font-bold text-xs uppercase tracking-wider hover:bg-[#ebd2bb] hover:scale-105 transition-all shadow-xl shadow-[#d4a373]/20 flex items-center gap-2 cursor-pointer"
             >
               <span>ORDER NOW — $590</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </a>
             <a
               href="#metallurgy"
-              className="px-6 py-3.5 rounded-full border border-white/15 text-[#f5f5f7] font-mono-tech text-xs uppercase hover:bg-white/5 hover:border-white/30 transition-all"
+              className="px-5 py-3 rounded-full border border-white/15 text-[#f5f5f7] font-mono-tech text-xs uppercase hover:bg-white/5 hover:border-white/30 transition-all cursor-pointer"
             >
               Explore Architecture
             </a>
           </div>
 
           {/* Minimalist Datum Readout */}
-          <div className="mt-12 flex flex-wrap items-center gap-8 border-t border-white/10 pt-6 font-mono-tech text-xs">
+          <div className="mt-5 sm:mt-6 flex flex-wrap items-center gap-6 border-t border-white/10 pt-4 font-mono-tech text-xs max-w-md">
             <div>
               <span className="text-[#59564f] text-[10px] block tracking-wider uppercase">TRANSMISSION</span>
               <span className="text-[#e2b17a] font-medium flex items-center gap-1.5 mt-0.5">
@@ -118,12 +118,12 @@ export default function ProductSections({ scrollProgress, colorFinish, setColorF
                 24-BIT / 192KHZ
               </span>
             </div>
-            <div className="w-px h-7 bg-white/10" />
+            <div className="w-px h-6 bg-white/10" />
             <div>
               <span className="text-[#59564f] text-[10px] block tracking-wider uppercase">MASS</span>
               <span className="text-[#f5f5f7] font-medium mt-0.5">318 GRAMS</span>
             </div>
-            <div className="w-px h-7 bg-white/10" />
+            <div className="w-px h-6 bg-white/10" />
             <div>
               <span className="text-[#59564f] text-[10px] block tracking-wider uppercase">BATTERY</span>
               <span className="text-[#f5f5f7] font-medium mt-0.5">38 HOURS</span>
@@ -132,7 +132,7 @@ export default function ProductSections({ scrollProgress, colorFinish, setColorF
         </div>
 
         {/* Scroll Bar */}
-        <div className="flex items-center justify-between pointer-events-auto border-t border-white/10 pt-6 text-[11px] font-mono-tech text-[#5e5b54]">
+        <div className="flex items-center justify-between pointer-events-auto border-t border-white/10 pt-3 text-[10px] sm:text-[11px] font-mono-tech text-[#5e5b54]">
           <div className="flex items-center gap-3">
             <span className="text-[#f5f5f7] font-medium">STAGE 01</span>
             <span>//</span>
