@@ -69,7 +69,7 @@ export default function ProductSections({ scrollProgress, colorFinish, setColorF
       {/* =========================================================================
           STAGE 01: HERO OVERVIEW (Scroll 0% - 20%)
       ========================================================================= */}
-      <section id="overview" className="min-h-screen flex flex-col justify-between pt-20 sm:pt-24 pb-28 px-8 sm:px-16 lg:px-24 max-w-[1440px] mx-auto">
+      <section id="overview" className="min-h-screen flex flex-col justify-between pb-28 px-8 sm:px-16 lg:px-24 max-w-[1440px] mx-auto" style={{ paddingTop: '96px' }}>
         <div className="pointer-events-auto max-w-xl">
           <div className="flex items-center gap-2 text-[10px] sm:text-[11px] font-mono-tech text-[#c29b72] mb-3 sm:mb-4 tracking-[0.2em] uppercase">
             <span className="text-[#d4a373] text-sm">+</span>
