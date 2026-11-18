@@ -69,9 +69,9 @@ export default function ProductSections({ scrollProgress, colorFinish, setColorF
       {/* =========================================================================
           STAGE 01: HERO OVERVIEW (Scroll 0% - 20%)
       ========================================================================= */}
-      <section id="overview" className="min-h-screen flex flex-col justify-between pb-28 px-8 sm:px-16 lg:px-24 max-w-[1440px] mx-auto" style={{ paddingTop: '136px' }}>
+      <section id="overview" className="landing-hero flex flex-col justify-between pb-28 px-8 sm:px-16 lg:px-24 max-w-[1440px] mx-auto">
         <div className="pointer-events-auto max-w-xl">
-          <div className="flex items-center gap-2 text-[10px] sm:text-[11px] font-mono-tech text-[#c29b72] mb-3 sm:mb-4 tracking-[0.2em] uppercase">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[10px] sm:text-[11px] font-mono-tech text-[#c29b72] mb-3 sm:mb-4 tracking-[0.2em] uppercase">
             <span className="text-[#d4a373] text-sm">+</span>
             <span>PRODUCTION BATCH 01</span>
             <span className="text-white/20">/</span>
@@ -132,7 +132,7 @@ export default function ProductSections({ scrollProgress, colorFinish, setColorF
         </div>
 
         {/* Scroll Bar */}
-        <div className="flex items-center justify-between pointer-events-auto border-t border-white/10 pt-3 text-[10px] sm:text-[11px] font-mono-tech text-[#5e5b54]">
+        <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 pointer-events-auto border-t border-white/10 pt-3 text-[10px] sm:text-[11px] font-mono-tech text-[#5e5b54]">
           <div className="flex items-center gap-3">
             <span className="text-[#f5f5f7] font-medium">STAGE 01</span>
             <span>//</span>

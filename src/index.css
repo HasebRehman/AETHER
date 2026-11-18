@@ -7,6 +7,30 @@
   --font-mono: 'DM Mono', monospace;
 }
 
+:root {
+  --navigation-height: 83px;
+  --hero-top-space: 136px;
+}
+
+/* Keep navigation clearance and section spacing identical in both Vite modes.
+   A minimum gap prevents the stage row touching the specs on short viewports. */
+.landing-hero {
+  min-height: 100vh;
+  min-height: 100svh;
+  padding-top: var(--hero-top-space);
+  gap: 2rem;
+}
+
+main section[id] {
+  scroll-margin-top: calc(var(--navigation-height) + 1rem);
+}
+
+html {
+  scrollbar-gutter: stable;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 @layer base {
   html, body {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
